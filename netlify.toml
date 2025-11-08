@@ -4,7 +4,7 @@
   # Standard build command for React
   command = "npm run build"
   # Output directory is 'build' relative to the base directory
-  publish = "product-recommendation/build"
+  publish = "build"
 
 # Essential for React Router (if you use client-side routing)
 [[redirects]]
