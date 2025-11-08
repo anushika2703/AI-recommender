@@ -1,0 +1,13 @@
+[build]
+  # Correctly points to your Create React App folder
+  base = "product-recommendation"
+  # Standard build command for React
+  command = "npm run build"
+  # Output directory is 'build' relative to the base directory
+  publish = "product-recommendation/build"
+
+# Essential for React Router (if you use client-side routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
