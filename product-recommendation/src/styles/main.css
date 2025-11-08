@@ -1,0 +1,37 @@
+body { font-family: 'Roboto', sans-serif; background: #f2f5fa; }
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(24,24,30,0.08);
+  padding: 32px;
+}
+h1, h2, h3 { color: #13315c; margin-bottom: 18px; }
+.product-list, .recommended-products { margin: 32px 0; }
+ul { list-style: none; padding: 0; }
+li {
+  background: #eaeef7;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.25s;
+}
+li:hover { background: #dfe4ea; cursor: pointer; }
+.recommendation-form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 7px;
+  border: 1px solid #cccccc;
+  margin-right: 10px;
+}
+.recommendation-form button {
+  padding: 10px 18px;
+  background: linear-gradient(90deg, #13315c 80%, #eeeded 120%);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+.recommendation-form button:hover { background: #13315c; }
