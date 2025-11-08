@@ -1,12 +1,12 @@
 [build]
-  # This tells Netlify where the main project is located
+  # Correctly points to your Create React App folder
   base = "product-recommendation"
-  # This is the command to run *inside* the base directory
+  # Standard build command for React
   command = "npm run build"
-  # This is the folder the command produces, relative to the base directory
+  # Output directory is 'build' relative to the base directory
   publish = "product-recommendation/build"
 
-# If you use React Router, add this for client-side routing
+# Essential for React Router (if you use client-side routing)
 [[redirects]]
   from = "/*"
   to = "/index.html"
